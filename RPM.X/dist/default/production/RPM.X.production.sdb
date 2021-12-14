@@ -1,0 +1,111 @@
+[p GLOBOPT AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F628A ]
+[d frameptr 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"3 C:\Users\Usuario\Documents\GitHub\Pic\RPM.X\Configuracion.c
+[v _internal_4 internal_4 `(v  1 e 1 0 ]
+"9
+[v _ReadTimer0 ReadTimer0 `(uc  1 e 1 0 ]
+"10 C:\Users\Usuario\Documents\GitHub\Pic\RPM.X\Main.c
+[v _initMain initMain `(v  1 e 1 0 ]
+"36
+[v _main main `(v  1 e 1 0 ]
+"60 C:/Program Files/Microchip/xc8/v2.32/pic/include/proc\pic16f628a.h
+[v _TMR0 TMR0 `VEuc  1 e 1 @1 ]
+[s S101 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"184
+[u S110 . 1 `S101 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES110  1 e 1 @5 ]
+[s S75 . 1 `uc 1 CM 1 0 :3:0 
+`uc 1 CIS 1 0 :1:3 
+`uc 1 C1INV 1 0 :1:4 
+`uc 1 C2INV 1 0 :1:5 
+`uc 1 C1OUT 1 0 :1:6 
+`uc 1 C2OUT 1 0 :1:7 
+]
+"788
+[s S82 . 1 `uc 1 CM0 1 0 :1:0 
+`uc 1 CM1 1 0 :1:1 
+`uc 1 CM2 1 0 :1:2 
+]
+[u S86 . 1 `S75 1 . 1 0 `S82 1 . 1 0 ]
+[v _CMCONbits CMCONbits `VES86  1 e 1 @31 ]
+[s S122 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+"858
+[s S129 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+]
+[u S133 . 1 `S122 1 . 1 0 `S129 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES133  1 e 1 @129 ]
+[s S54 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"925
+[u S63 . 1 `S54 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES63  1 e 1 @133 ]
+[s S22 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 OSCF 1 0 :1:3 
+]
+"1108
+[s S27 . 1 `uc 1 nBO 1 0 :1:0 
+]
+[s S29 . 1 `uc 1 nBOD 1 0 :1:0 
+]
+[u S31 . 1 `S22 1 . 1 0 `S27 1 . 1 0 `S29 1 . 1 0 ]
+[v _PCONbits PCONbits `VES31  1 e 1 @142 ]
+"36 C:\Users\Usuario\Documents\GitHub\Pic\RPM.X\Main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"39
+[v main@count count `uc  1 a 1 5 ]
+"51
+} 0
+"10
+[v _initMain initMain `(v  1 e 1 0 ]
+{
+"34
+} 0
+"3 C:\Users\Usuario\Documents\GitHub\Pic\RPM.X\Configuracion.c
+[v _internal_4 internal_4 `(v  1 e 1 0 ]
+{
+"7
+} 0
+"9
+[v _ReadTimer0 ReadTimer0 `(uc  1 e 1 0 ]
+{
+"12
+[v ReadTimer0@readVal readVal `uc  1 a 1 1 ]
+"17
+} 0
