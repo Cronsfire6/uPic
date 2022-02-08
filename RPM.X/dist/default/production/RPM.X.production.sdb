@@ -11,11 +11,11 @@
 [v ___eecpymem __eecpymem `(v  1 e 1 0 ]
 "39
 [v ___memcpyee __memcpyee `(v  1 e 1 0 ]
-"3 C:\Users\Usuario\Documents\GitHub\Pic\RPM.X\Configuracion.c
+"3 C:\Users\Usuario\Documents\GitHub\uPic\RPM.X\Configuracion.c
 [v _internal_4 internal_4 `(v  1 e 1 0 ]
 "9
 [v _ReadTimer0 ReadTimer0 `(uc  1 e 1 0 ]
-"10 C:\Users\Usuario\Documents\GitHub\Pic\RPM.X\Main.c
+"10 C:\Users\Usuario\Documents\GitHub\uPic\RPM.X\Main.c
 [v _initMain initMain `(v  1 e 1 0 ]
 "36
 [v _main main `(v  1 e 1 0 ]
@@ -85,7 +85,7 @@
 ]
 [u S31 . 1 `S22 1 . 1 0 `S27 1 . 1 0 `S29 1 . 1 0 ]
 [v _PCONbits PCONbits `VES31  1 e 1 @142 ]
-"36 C:\Users\Usuario\Documents\GitHub\Pic\RPM.X\Main.c
+"36 C:\Users\Usuario\Documents\GitHub\uPic\RPM.X\Main.c
 [v _main main `(v  1 e 1 0 ]
 {
 "39
@@ -97,7 +97,7 @@
 {
 "34
 } 0
-"3 C:\Users\Usuario\Documents\GitHub\Pic\RPM.X\Configuracion.c
+"3 C:\Users\Usuario\Documents\GitHub\uPic\RPM.X\Configuracion.c
 [v _internal_4 internal_4 `(v  1 e 1 0 ]
 {
 "7

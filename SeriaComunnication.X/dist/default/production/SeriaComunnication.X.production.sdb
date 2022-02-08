@@ -1,0 +1,214 @@
+[p GLOBOPT AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F628A ]
+[d frameptr 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"3 C:\Users\Usuario\Documents\GitHub\Pic\SeriaComunnication.X\main.c
+[v _initMain initMain `(v  1 e 1 0 ]
+"43
+[v _main main `(v  1 e 1 0 ]
+"3 C:\Users\Usuario\Documents\GitHub\Pic\SeriaComunnication.X\usart.c
+[v _internal_4 internal_4 `(v  1 e 1 0 ]
+"9
+[v _RX RX `(uc  1 e 1 0 ]
+"13
+[v _writeRXIN writeRXIN `(v  1 e 1 0 ]
+"17
+[v _TX TX `(v  1 e 1 0 ]
+"23
+[v _ISR ISR `II(v  1 e 1 0 ]
+[s S94 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"184 C:/Program Files/Microchip/xc8/v2.32/pic/include/proc\pic16f628a.h
+[u S103 . 1 `S94 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES103  1 e 1 @5 ]
+[s S207 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"334
+[s S216 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+[u S221 . 1 `S207 1 . 1 0 `S216 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES221  1 e 1 @11 ]
+[s S186 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 CMIF 1 0 :1:6 
+`uc 1 EEIF 1 0 :1:7 
+]
+"406
+[u S195 . 1 `S186 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES195  1 e 1 @12 ]
+[s S136 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"704
+[s S145 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ADDEN 1 0 :1:3 
+]
+[u S148 . 1 `S136 1 . 1 0 `S145 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES148  1 e 1 @24 ]
+"754
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"761
+[v _RCREG RCREG `VEuc  1 e 1 @26 ]
+[s S26 . 1 `uc 1 CM 1 0 :3:0 
+`uc 1 CIS 1 0 :1:3 
+`uc 1 C1INV 1 0 :1:4 
+`uc 1 C2INV 1 0 :1:5 
+`uc 1 C1OUT 1 0 :1:6 
+`uc 1 C2OUT 1 0 :1:7 
+]
+"788
+[s S33 . 1 `uc 1 CM0 1 0 :1:0 
+`uc 1 CM1 1 0 :1:1 
+`uc 1 CM2 1 0 :1:2 
+]
+[u S37 . 1 `S26 1 . 1 0 `S33 1 . 1 0 ]
+[v _CMCONbits CMCONbits `VES37  1 e 1 @31 ]
+[s S73 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"925
+[u S82 . 1 `S73 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES82  1 e 1 @133 ]
+[s S52 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"987
+[u S61 . 1 `S52 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES61  1 e 1 @134 ]
+[s S165 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 CMIE 1 0 :1:6 
+`uc 1 EEIE 1 0 :1:7 
+]
+"1049
+[u S174 . 1 `S165 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES174  1 e 1 @140 ]
+[s S327 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 OSCF 1 0 :1:3 
+]
+"1108
+[s S332 . 1 `uc 1 nBO 1 0 :1:0 
+]
+[s S334 . 1 `uc 1 nBOD 1 0 :1:0 
+]
+[u S336 . 1 `S327 1 . 1 0 `S332 1 . 1 0 `S334 1 . 1 0 ]
+[v _PCONbits PCONbits `VES336  1 e 1 @142 ]
+[s S115 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"1162
+[u S124 . 1 `S115 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES124  1 e 1 @152 ]
+"1202
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"1405
+[v _CREN CREN `VEb  1 e 0 @196 ]
+"1534
+[v _SPEN SPEN `VEb  1 e 0 @199 ]
+"26 C:\Users\Usuario\Documents\GitHub\Pic\SeriaComunnication.X\usart.h
+[v _flagRXFramingError flagRXFramingError `i  1 e 2 0 ]
+"27
+[v _flagRXOverrunError flagRXOverrunError `i  1 e 2 0 ]
+"28
+[v _RXIN RXIN `VEuc  1 e 1 0 ]
+"43 C:\Users\Usuario\Documents\GitHub\Pic\SeriaComunnication.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"63
+} 0
+"3
+[v _initMain initMain `(v  1 e 1 0 ]
+{
+"33
+} 0
+"3 C:\Users\Usuario\Documents\GitHub\Pic\SeriaComunnication.X\usart.c
+[v _internal_4 internal_4 `(v  1 e 1 0 ]
+{
+"7
+} 0
+"17
+[v _TX TX `(v  1 e 1 0 ]
+{
+[v TX@a a `uc  1 a 1 wreg ]
+[v TX@a a `uc  1 a 1 wreg ]
+[v TX@a a `uc  1 a 1 3 ]
+"20
+} 0
+"23
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"45
+} 0
+"13
+[v _writeRXIN writeRXIN `(v  1 e 1 0 ]
+{
+[v writeRXIN@a a `VEuc  1 a 1 wreg ]
+[v writeRXIN@a a `VEuc  1 a 1 wreg ]
+[v writeRXIN@a a `VEuc  1 a 1 0 ]
+"15
+} 0
+"9
+[v _RX RX `(uc  1 e 1 0 ]
+{
+"11
+} 0

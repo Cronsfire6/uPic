@@ -5,7 +5,7 @@ Linker command line:
 -W-3 --edf=C:\Program Files\Microchip\xc8\v2.32\pic\dat\en_msgs.txt -cn \
   -h+dist/default/production\RPM.X.production.sym \
   --cmf=dist/default/production\RPM.X.production.cmf -z -Q16F628A \
-  -oC:\Users\Usuario\AppData\Local\Temp\xcAs1528.4 \
+  -oC:\Users\Usuario\AppData\Local\Temp\xcAs1r90.4 \
   -Mdist/default/production/RPM.X.production.map -E1 -ver=XC8 Compiler \
   -ASTACK=020h-06Fh -pstack=STACK -ACODE=00h-07FFh -ASTRCODE=00h-07FFh \
   -ASTRING=00h-0FFhx8 -ACONST=00h-0FFhx8 -AENTRY=00h-0FFhx8 \
@@ -17,7 +17,7 @@ Linker command line:
   -peeprom_data=EEDATA -DEEDATA=2 -DCODE=2 -DSTRCODE=2 -DSTRING=2 -DCONST=2 \
   -DENTRY=2 -preset_vec=00h,intentry,init,end_init -ppowerup=CODE \
   -pcinit=CODE -pfunctab=ENTRY -k \
-  C:\Users\Usuario\AppData\Local\Temp\xcAs1528.obj \
+  C:\Users\Usuario\AppData\Local\Temp\xcAs1r90.obj \
   dist/default/production\RPM.X.production.obj 
 
 Object code version is 3.11
@@ -27,7 +27,7 @@ Machine type is 16F628A
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\Usuario\AppData\Local\Temp\xcAs1528.obj
+C:\Users\Usuario\AppData\Local\Temp\xcAs1r90.obj
                 end_init                              0        0        1        0       0
                 config                             2007     2007        1        0       4
 dist/default/production\RPM.X.production.obj

@@ -1,10 +1,3 @@
-/*
- * File:   newmain.c
- * Author: Usuario
- *
- * Created on 13 de diciembre de 2021, 23:07
- */
-
 #include "Configuracion.h"
 
 void initMain( void ){
